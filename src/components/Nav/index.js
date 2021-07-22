@@ -1,10 +1,10 @@
-import React from 'react';
+import React, {useState} from 'react';
 import toolsPhoto from '../../assets/toolsPng.png';
 import yellowPhoto from '../../assets/yellow.png';
 
 function Nav(props){
-    //const tabs = [ 'about', 'resume', 'contact', 'porfolio' ]
-        
+    const {currentPage}  = props;  
+    console.log(currentPage)
 return(
     <section className = "top">
     <header><style>
@@ -15,13 +15,21 @@ return(
          <h1>John Bartlett</h1>
         <ul className = "nav">
             <li onClick = {() => props.handlePageChange('about')}
-                className={props.currentPage === 'about'}>About</li>
+            className = {`${currentPage === 'about' ? 'active' : ''}`}
+                >About
+            </li>
+
             <li onClick = {() => props.handlePageChange('contact')}
-                className={props.currentPage === 'contact'}>Contact</li>
+                className = {`${currentPage === 'contact' ? 'active' : ''}`} >Contact</li>
+
             <li onClick = {() => props.handlePageChange('resume')}
-                className={props.currentPage === 'resume'}>Resume</li>
+            className = {`${currentPage === 'resume' ? 'active' : ''}`}
+                >Resume</li>
+
             <li onClick = {() => props.handlePageChange('portfolio')}
-                className={props.currentPage === 'portfolio'}>Portfolio</li>            
+            className = {`${currentPage === 'portfolio' ? 'active' : ''}`}
+                >Portfolio</li>  
+
         </ul>
         
     </header>

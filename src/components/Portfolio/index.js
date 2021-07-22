@@ -14,17 +14,21 @@ return(
              <h2>
              Portfolio
          </h2>
-            <div>
-                <a href = "https://github.com/Jbartlettdesign/pegasus">
+            <div className = "portDiv">
+                
                 <img src = {pegasus} alt="tools"/>
-                <h4>Pegasus Travel App</h4>
-                </a>
+                <div className = "links">
+                    <a href = "https://jbartlettdesign.github.io/pegasus/"><h4>Pegasus Travel App</h4></a>
+                    <a  className = "git" href = "https://github.com/Jbartlettdesign/pegasus">github link</a>
+                </div>
             </div>
-            <div>
-                <a href = "https://github.com/Jbartlettdesign/socialMediaSite_ChatterBox">
+            <div  className = "portDiv">
+                
                 <img src = {chatterbox} alt="tools"/>
-                <h4>Chatterbox Social Media Site</h4>
-                </a>
+                <div className = "links">
+                    <a href = "https://pure-river-00031.herokuapp.com/"><h4>Chatterbox Social Media Site</h4></a>
+                    <a className = "git" href = "https://github.com/Jbartlettdesign/socialMediaSite_ChatterBox">github link</a>
+                </div>
             </div>
             
          </div>

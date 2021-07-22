@@ -15,12 +15,16 @@ function App() {
     switch(currentPage) {
       case 'resume':
         return <Resume />;
-      case 'about':
-        return <About /> 
+     
       case  'contact':
         return  <Contact />
       case 'portfolio':
         return <Portfolio />
+      case 'about':
+        return  <About />   
+
+        default:
+        return <About /> 
     }
   };
   return (

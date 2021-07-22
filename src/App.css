@@ -49,9 +49,10 @@ header{
   background-color: yellow;
 }
 .nav li{
-  margin-top: 10px;
-  margin-bottom: 7px;
+  margin-bottom: 0px;
   margin-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 5px;
 }
 
 .triangle-down {
@@ -125,6 +126,9 @@ header{
   /*border: tomato 2px solid;*/
   margin: 0;
 }
+.h2About{
+  width: 100%;
+}
 h2{
   margin-left:40px;
   padding-top: 20px;
@@ -132,6 +136,7 @@ h2{
   font-weight: 200;
   font-style: normal;
   font-size: 30px;
+ 
 }
 .top{
   margin-bottom: 150px;
@@ -234,13 +239,15 @@ h2{
 .page div{
   
   margin-bottom: 100px;
-  
  
+}
+.error{
+  margin-left: 400px;
+
 }
 .pageAbout div{
   
   margin-bottom: 100px;
-  
  
 }
 .content{
@@ -282,7 +289,8 @@ h2{
   text-align: left;
   margin-left: 400px;
   line-height: 1.5;
-  
+  margin-top: 75px;
+
 }
 .small-tri-up {
   width: 0; 
@@ -317,12 +325,15 @@ input{
 .nav li:hover {
   color: rgb(156, 156, 156);
 }
-.portfolio div{
+.portDiv{
   display: flex;
   flex-direction: column;
   align-content: flex-start;
 
   
+}
+.git{
+  margin-top: 18px;
 }
 a{
   color: white;
@@ -386,6 +397,31 @@ body::-webkit-scrollbar-thumb {
 .portfolio h2{
   margin-left: 0px;
   margin-top: -430px;
+}
+.active{
+  background-color: rgb(117, 117, 117);
+  height: auto;
+  color: white;
+  padding: 15px;
+  padding-top: 6px;
+  
+  
+}
+.profile{
+  margin-left: 400px;
+  border-radius: 75px;
+}
+.mainPage{
+  min-width: 760px;
+  
+}
+.nav{
+  min-width: 600px;
+}
+.links{
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
 }
 @media only screen and (max-width: 900px) {
   .portfolio h2{
@@ -486,8 +522,8 @@ body::-webkit-scrollbar-thumb {
   .nav li{ 
     font-size: 20px;
     /*border: lawngreen solid 2px;*/
-    margin-top: 10px;
-    margin-bottom: 7px;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
  
   .page p{
@@ -544,5 +580,8 @@ body::-webkit-scrollbar-thumb {
 }
 .portfolio h4{
   margin-top: 2px;
+}
+.git{
+  margin-top: 0px;
 }
 }
