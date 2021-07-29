@@ -59,12 +59,12 @@ header{
   width: 75px;
   height: 0;
   position: absolute;
-  top: 163px;
+  top: 161px;
   left: 70px;
   right: 0;
-  border-right: 280px solid transparent;
+  border-right: 285px solid transparent;
   /*border-right: 115px solid transparent;*/
-  border-bottom: 185px solid var(--brown);
+  border-bottom: 190px solid var(--brown);
   z-index: -1;
   /*margin-left: 50px;*/
 }
