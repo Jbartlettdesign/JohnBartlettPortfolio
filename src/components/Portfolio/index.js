@@ -27,7 +27,7 @@ return(
                 
                 <img src = {chatterbox} alt="chatterbox"/>
                 <div className = "links">
-                    <a href = "https://pure-river-00031.herokuapp.com/"><h4>Chatterbox Social Media Site</h4></a>
+                    <a href = "https://pure-river-00031.herokuapp.com/"><h4>Chatterbox Social Media</h4></a>
                     <a className = "git" href = "https://github.com/Jbartlettdesign/socialMediaSite_ChatterBox">github link</a>
                 </div>
             </div>
