@@ -120,17 +120,18 @@ header{
   text-align: left;
   margin: 0;
 }
-.h2About{
 
-}
 h2{
-  margin-left:40px;
   padding-top: 20px;
   font-family: muli, sans-serif;
   font-weight: 200;
   font-style: normal;
-  font-size: 30px;
+  font-size: 40px;
  
+}
+.h2About h2{
+  margin-left:0px;
+
 }
 .top{
   margin-bottom: 150px;
@@ -275,9 +276,9 @@ h2{
 }
 .pageAbout p{
 
-  width: 60%;
+  width: 80%;
   text-align: left;
-  
+  font-size: 20px;
   line-height: 1.5;
   margin-top: 75px;
 
@@ -302,7 +303,7 @@ input{
   align-items: center;
   /*border: yellowgreen 2px solid;*/
   width: 100%;
-  margin-left: 0px;
+  margin-left: -100px;
   margin-top: 30px;
 }
 .portfolio img{
@@ -330,6 +331,7 @@ a{
   color: white;
   text-decoration: none;
   border-bottom: none;
+  font-size: 17px;
 }
 h3{
  
@@ -345,7 +347,7 @@ h3{
 }
 .skills li{
   padding-left: 20px;
-  
+  font-size: 20px;
   padding-bottom: 40px;
 }
 .skills h3{
@@ -355,6 +357,7 @@ h3{
 .skills div{
   margin-right: 200px;
 }
+
 .footer img {
 height: 75px;
 width: auto;
