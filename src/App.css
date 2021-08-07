@@ -4,9 +4,10 @@
 }
 
 body, html{
-  margin-left: 35px;
-  margin-right: 50px;
+  
   margin-top: 25px;
+  height: 100%;
+ 
 }
 h1{
   font-family: 'Rubik Mono One', sans-serif;
@@ -24,7 +25,7 @@ header{
   justify-content: space-between;
   position: relative;
   top:12px;
-  width: 100%;
+  width: 90%;
   z-index: 1;
   /*border-top: rgb(149, 0, 87) 4px solid;*/
   /*border: tomato 2px solid;*/
@@ -60,7 +61,7 @@ header{
   height: 0;
   position: absolute;
   top: 161px;
-  left: 70px;
+  left: 0px;
   right: 0;
   border-right: 285px solid transparent;
   /*border-right: 115px solid transparent;*/
@@ -127,7 +128,7 @@ header{
   margin: 0;
 }
 .h2About{
-  width: 100%;
+
 }
 h2{
   margin-left:40px;
@@ -158,19 +159,17 @@ h2{
   
 }
 .mainPage{
-  width: 92%;
+  width: 100%;
   color: white;
- 
   margin-top: -560px;
   z-index: -99;
   position: absolute;
   /*right: 100px;*/
-  height: 1450px;
-  display: flex;
+height: 1450px;  display: flex;
   /*border: tomato 2px solid;*/
   background-color: var(--brown);
   border-bottom: 120px solid grey;
-  
+  flex-grow: 1;
 }
 
 .filler{
@@ -186,7 +185,7 @@ h2{
   /*border-bottom: 100px solid grey;*/
   /*background-color: var(--brown);*/
   width: 100%;
-  height: 1035px;
+  height: 100vh;
   /*border: lawngreen solid 2px;*/
   z-index: -999;
   /*border-left: 400px white solid;*/
@@ -216,6 +215,10 @@ h2{
   
   
 }
+.contactPage form{
+  margin-top: 125px;
+  /*background-color: rgb(251, 255, 0);*/
+}
 .container{
   margin-top: 100px;
 }
@@ -235,6 +238,7 @@ h2{
 }
 .contact h2{
   margin-left: 0px;
+  
 }
 .page div{
   
@@ -305,18 +309,19 @@ input{
   width: 300px;
   height: 30px;
 }
+
 .portfolio{
   display: flex;
   justify-content: space-between;
   align-items: center;
   /*border: yellowgreen 2px solid;*/
-  width: 80%;
-  margin-left: 400px;
-
+  width: 70%;
+  margin-left: 540px;
+  margin-top: 30px;
 }
 .portfolio img{
-  width: auto;
-  height: 400px;
+  width: 250px;
+  height: 250px;
   
   /*opacity: .85;*/
 }
@@ -333,7 +338,7 @@ input{
   
 }
 .git{
-  margin-top: 18px;
+  margin-top: -15px;
 }
 a{
   color: white;
@@ -343,6 +348,9 @@ a{
 h3{
   margin-left: 400px;
   
+}
+.portfolio h4{
+  margin-top: 5px;
 }
 .skills{
   display: flex;
@@ -395,7 +403,7 @@ body::-webkit-scrollbar-thumb {
   /*border: 3px solid orange;  /* creates padding around scroll thumb */
 }
 .portfolio h2{
-  margin-left: 0px;
+  margin-left: -140px;
   margin-top: -430px;
 }
 .active{
@@ -420,11 +428,12 @@ body::-webkit-scrollbar-thumb {
 }
 .links{
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   font-size: 15px;
 }
 @media only screen and (max-width: 900px) {
-  .portfolio h2{
+  /*.portfolio h2{
     margin-left: -240px;
   }
   .portfolio div{
@@ -435,16 +444,16 @@ body::-webkit-scrollbar-thumb {
     width: auto;
     height: 250px;
     /*opacity: .85;*/
-  }
+  /*}*/
   .container{
     margin-bottom: 0px;
     
 
   }
-  .containerPort{
+ /* .containerPort{
     margin-left: -60px;
     
-  }
+  }*/
   /*.containerPort h2{
     margin-left: 450px;
     
@@ -463,7 +472,7 @@ body::-webkit-scrollbar-thumb {
   }
   .mainPage{
    
-    height: 1500px;
+    height: 1600px;
     /*background-color: violet;*/
   }
   h1{
@@ -480,7 +489,7 @@ body::-webkit-scrollbar-thumb {
   .footer{
     width: 200px;
     position: absolute;
-  top: 1485px;
+  top: 1590px;
     display: flex;
     justify-content: space-between;
     left: 45%;
@@ -497,10 +506,10 @@ body::-webkit-scrollbar-thumb {
 
 @media only screen and (max-width: 1125px) {
 
-  .portfolio h2{
+ /* .portfolio h2{
     margin-top: 75px;
     margin-left: -240px;
-  }
+  }*/
   .skills div{
    width: 55%;
   }
@@ -542,46 +551,44 @@ body::-webkit-scrollbar-thumb {
 
 }
 @media only screen and (max-width: 1400px) {
-  .portfolio h2{
+  /*.portfolio h2{
     margin-top: 75px;
     margin-left: -240px;
-  }
+  }*/
   .messageText{
     width: 90%;
     /*background-color: yellowgreen;*/
   }
 }
-@media only screen and (max-width: 1600px) {
-  .portfolio h2{
+@media only screen and (max-width: 1500px) {
+ /* .portfolio h2{
     margin-top: 75px;
     margin-left: -240px;
-  }
+  }*/
 .portfolio{
   display: flex;
   flex-direction: column;
   /*justify-content: space-between;
   align-items: center;*/
   /*border: yellowgreen 2px solid;*/
-  width: 80%;
-  margin-left: 400px;
-  height: 40%;
-  position: absolute;
-  margin-top: -115px;
-  margin-left: 300px;
+ 
+  margin-left: 350px;
+  margin-top: 400px;
+ 
+ 
 }
 .portfolio div{
-  margin: 0px;
+  margin-bottom: 18px;
 }
 .portfolio img{
   width: auto;
-  height: 350px;
+  height: 200px;
   
-  /*opacity: .85;*/
 }
 .portfolio h4{
   margin-top: 2px;
 }
-.git{
-  margin-top: 0px;
+.portfolio h2{
+  margin-left: -90px;
 }
 }
