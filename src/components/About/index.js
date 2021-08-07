@@ -5,7 +5,8 @@ function About(){
 return(
     <section className = "mainPage">
         <div className = "content">
-        <div className = "pageAbout">
+            <div >
+                <div className="pageAbout">
         <div className = "container"> 
         <img className = "profile" src = {profile} alt = "pic of me"/>
          <h2 className = "h2About">
@@ -16,7 +17,8 @@ return(
 
 
          </p>
-         </div>
+        </div>
+        </div>
          </div>
         </div>
        

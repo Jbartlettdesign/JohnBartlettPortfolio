@@ -4,7 +4,8 @@ import pegasus from '../../assets/pegasus.png'
 import dingo from '../../assets/dingo.png'
 function Portfolio(){
 return(
-    <section className = "mainPage">
+    <section className="mainPage">
+        
         <div className = "content">
         <div className = "page">
         <div className = "container"> 

@@ -7,14 +7,14 @@ body, html{
   
   margin-top: 25px;
   height: 100%;
- 
+
 }
 h1{
   font-family: 'Rubik Mono One', sans-serif;
   font-size: 60px;
   flex-wrap: wrap;
   width:25%;
-  margin-left: 395px;
+  margin-left: 50px;
   color:rgb(0, 0, 0);
   padding-top: 50px;
   margin-top: 75px;
@@ -41,7 +41,6 @@ header{
   
   font-family: 'Rubik Mono One', sans-serif;
   font-size: 25px;
-  /*border: tomato 2px solid;*/
   width: 95%;
   position: absolute;
   top: -10px;
@@ -64,15 +63,12 @@ header{
   left: 0px;
   right: 0;
   border-right: 285px solid transparent;
-  /*border-right: 115px solid transparent;*/
   border-bottom: 190px solid var(--brown);
   z-index: -1;
-  /*margin-left: 50px;*/
 }
 .triangle-up {
   width: 0%;
   height: 0;
-  /*border-left: 15px solid transparent;*/
   border-right: 305px solid transparent;
   border-bottom: 195px solid rgb(200, 200, 200);
   z-index: -1;
@@ -91,7 +87,6 @@ header{
 
 }
 .titles{
-    /*border: lawngreen solid 2px;*/
     margin-top: -55px;
 }
 .rec{
@@ -100,7 +95,6 @@ header{
   width: 305px;
   position: absolute;
   top: 195px;
-  /*border-bottom: rgb(105, 103, 98) 250px solid;*/
 }
 .statementRec{
   background-color: rgb(200, 200, 200);
@@ -124,7 +118,6 @@ header{
   padding: 40px;
   padding-top: 0;
   text-align: left;
-  /*border: tomato 2px solid;*/
   margin: 0;
 }
 .h2About{
@@ -145,7 +138,7 @@ h2{
 .yellow {
   height: 1075px;
   width: auto;
-  z-index: 1;
+  z-index: 99;
   position: relative;
   left: -2px;
   top: -20px;
@@ -162,11 +155,10 @@ h2{
   width: 100%;
   color: white;
   margin-top: -560px;
-  z-index: -99;
+  
   position: absolute;
-  /*right: 100px;*/
-height: 1450px;  display: flex;
-  /*border: tomato 2px solid;*/
+ height: 1600px;
+ display: flex;
   background-color: var(--brown);
   border-bottom: 120px solid grey;
   flex-grow: 1;
@@ -174,7 +166,6 @@ height: 1450px;  display: flex;
 
 .filler{
   width: 40%;
-  /*background-color: var(--brown);*/
   background-color: red;
   z-index: 1;
   height: 100%
@@ -182,55 +173,60 @@ height: 1450px;  display: flex;
 }
 .page{ 
   border-top: 185px solid rgb(200, 200, 200);
-  /*border-bottom: 100px solid grey;*/
-  /*background-color: var(--brown);*/
+  
   width: 100%;
   height: 100vh;
-  /*border: lawngreen solid 2px;*/
-  z-index: -999;
-  /*border-left: 400px white solid;*/
+ 
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  align-items: center;
 }
 .pageAbout{ 
   border-top: 185px solid rgb(200, 200, 200);
-  /*border-bottom: 100px solid grey;*/
-  /*background-color: var(--brown);*/
+
   width: 100%;
   height: 1035px;
-  /*border: lawngreen solid 2px;*/
-  z-index: -999;
-  /*border-left: 400px white solid;*/
+
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
 }
 .contactPage{
   border-top: 185px solid rgb(200, 200, 200);
-  /*border-bottom: 100px solid grey;*/
-  /*background-color: var(--brown);*/
-  width: 100%;
-  height: 1035px;
+
   
+  height: 1035px;
+  display: flex;
+    justify-content: center;
   
 }
 .contactPage form{
   margin-top: 125px;
-  /*background-color: rgb(251, 255, 0);*/
 }
 .container{
   margin-top: 100px;
+  width: 60%;
 }
+.containerRes{
+       margin-top: 125px;
+
+
+  }
+  .containerRes h2{
+       margin-left: 0px;
+
+
+  }
 .contact{
-  margin-left: 400px;
-  /*border: lawngreen solid 2px;*/
-  width: 50%;
+  
+  
   
 }
 .messageText{
-  width: 800px;
+  width: 75%;
   height: 200px;
+  min-width: 450px;
 }
 
 .message{
@@ -257,6 +253,7 @@ height: 1450px;  display: flex;
 .content{
   margin-top: 200px;
   width: 100%;
+  
 }
 .content button{
   margin-top: 15px;
@@ -267,17 +264,8 @@ height: 1450px;  display: flex;
   border-style: none;
   color: white;
 }
-.page h2{
-  margin-left: 400px;
 
-}
-.pageAbout h2{
-  margin-left: 400px;
-
-}
 .page p{
-  /*padding: 50px;
-  background-color: rgb(0, 0, 0);*/
 
   width: 60%;
   text-align: left;
@@ -286,12 +274,10 @@ height: 1450px;  display: flex;
   
 }
 .pageAbout p{
-  /*padding: 50px;
-  background-color: rgb(0, 0, 0);*/
 
   width: 60%;
   text-align: left;
-  margin-left: 400px;
+  
   line-height: 1.5;
   margin-top: 75px;
 
@@ -315,14 +301,14 @@ input{
   justify-content: space-between;
   align-items: center;
   /*border: yellowgreen 2px solid;*/
-  width: 70%;
-  margin-left: 540px;
+  width: 100%;
+  margin-left: 0px;
   margin-top: 30px;
 }
 .portfolio img{
-  width: 250px;
-  height: 250px;
-  
+  width: 300px;
+  height: 300px;
+  margin: 10px;
   /*opacity: .85;*/
 }
 
@@ -346,11 +332,11 @@ a{
   border-bottom: none;
 }
 h3{
-  margin-left: 400px;
+ 
   
 }
 .portfolio h4{
-  margin-top: 5px;
+  margin-top: 10px;
 }
 .skills{
   display: flex;
@@ -359,7 +345,7 @@ h3{
 }
 .skills li{
   padding-left: 20px;
-  margin-left: 400px;
+  
   padding-bottom: 40px;
 }
 .skills h3{
@@ -367,7 +353,7 @@ h3{
   margin-bottom: 65px;
 }
 .skills div{
-  margin-right: -200px;
+  margin-right: 200px;
 }
 .footer img {
 height: 75px;
@@ -382,8 +368,7 @@ opacity: .5;
 .footer{
   width: 200px;
   position: absolute;
-top: 1440px;
-  display: flex;
+  top: 1590px;  display: flex;
   justify-content: space-between;
   left: 45%;
   
@@ -400,10 +385,9 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
   background-color:rgb(155, 155, 155);    /* color of the scroll thumb */
   border-radius: 20px;       /* roundness of the scroll thumb */
-  /*border: 3px solid orange;  /* creates padding around scroll thumb */
 }
 .portfolio h2{
-  margin-left: -140px;
+  margin-left: -90px;
   margin-top: -430px;
 }
 .active{
@@ -416,7 +400,7 @@ body::-webkit-scrollbar-thumb {
   
 }
 .profile{
-  margin-left: 400px;
+  
   border-radius: 75px;
 }
 .mainPage{
@@ -431,37 +415,13 @@ body::-webkit-scrollbar-thumb {
   flex-direction: column;
   justify-content: space-between;
   font-size: 15px;
+  margin-left: 10px;
 }
 @media only screen and (max-width: 900px) {
-  /*.portfolio h2{
-    margin-left: -240px;
-  }
-  .portfolio div{
-    margin-bottom: 0px;
-    margin-bottom: 25px;
-  }
-  .portfolio img{
-    width: auto;
-    height: 250px;
-    /*opacity: .85;*/
-  /*}*/
-  .container{
-    margin-bottom: 0px;
-    
-
-  }
- /* .containerPort{
-    margin-left: -60px;
-    
-  }*/
-  /*.containerPort h2{
-    margin-left: 450px;
-    
-    }*/
+  
   .skills{
    flex-direction: column;
    justify-content: flex-start;
-   margin-top: 35px;
   }
   .skills div{
     margin-bottom: 0px
@@ -473,18 +433,16 @@ body::-webkit-scrollbar-thumb {
   .mainPage{
    
     height: 1600px;
-    /*background-color: violet;*/
   }
   h1{
     font-size: 50px;
-    margin-left: 300px;
+    margin-left: 50px;
     padding-top: 50px;
   margin-top: 75px;
   margin-bottom: 74px;
 
   }
   .container {
-    width: 70%;
   }
   .footer{
     width: 200px;
@@ -499,96 +457,61 @@ body::-webkit-scrollbar-thumb {
     width: 75%;
     
   }
-  .message {
-    width: 60%;
-  }
+ 
 }
 
 @media only screen and (max-width: 1125px) {
 
- /* .portfolio h2{
-    margin-top: 75px;
-    margin-left: -240px;
-  }*/
+  
   .skills div{
    width: 55%;
   }
 
   .nav{
-    /*display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    justify-content: center;
-    /*border: tomato 2px solid;*/
-    /*width: 170px;
-    top: 58px;
-    right: 35px;
-     */
+   
     top: -5px;
     width: 99%;
   }
  
   .nav li{ 
     font-size: 20px;
-    /*border: lawngreen solid 2px;*/
     margin-top: 0px;
     margin-bottom: 0px;
   }
  
-  .page p{
-    width: 50%;
-  }
-  .pageAbout p{
-    width: 50%;
-  }
-  .page{
-    height: auto;
-    
-  }
+
+ 
+  
   .skills{
     margin-top:50px;
   }
 
 }
-@media only screen and (max-width: 1400px) {
-  /*.portfolio h2{
-    margin-top: 75px;
-    margin-left: -240px;
-  }*/
-  .messageText{
-    width: 90%;
-    /*background-color: yellowgreen;*/
-  }
-}
-@media only screen and (max-width: 1500px) {
- /* .portfolio h2{
-    margin-top: 75px;
-    margin-left: -240px;
-  }*/
+@media only screen and (max-width: 1250px) {
+
 .portfolio{
   display: flex;
   flex-direction: column;
-  /*justify-content: space-between;
-  align-items: center;*/
-  /*border: yellowgreen 2px solid;*/
  
-  margin-left: 350px;
-  margin-top: 400px;
+  margin-top: 450px;
  
  
 }
+
 .portfolio div{
   margin-bottom: 18px;
 }
 .portfolio img{
-  width: auto;
+  width: 200px;
   height: 200px;
   
 }
-.portfolio h4{
-  margin-top: 2px;
+
 }
-.portfolio h2{
-  margin-left: -90px;
+@media only screen and (max-width: 1400px) {
+
+
 }
+@media only screen and (max-width: 1500px) {
+ 
 }

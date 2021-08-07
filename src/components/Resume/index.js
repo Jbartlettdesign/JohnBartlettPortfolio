@@ -4,7 +4,7 @@ return(
     <section className = "mainPage">
         <div className = "content">
         <div className = "page">
-        <div className = "container"> 
+        <div className = "containerRes"> 
          <h2>
              Resume
          </h2>
